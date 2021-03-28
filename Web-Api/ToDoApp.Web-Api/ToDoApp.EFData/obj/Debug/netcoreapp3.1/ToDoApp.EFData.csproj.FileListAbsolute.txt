@@ -1,0 +1,11 @@
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\bin\Debug\netcoreapp3.1\ToDoApp.EFData.deps.json
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\bin\Debug\netcoreapp3.1\ToDoApp.EFData.dll
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\obj\Debug\netcoreapp3.1\ToDoApp.EFData.csprojAssemblyReference.cache
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\obj\Debug\netcoreapp3.1\ToDoApp.EFData.AssemblyInfoInputs.cache
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\obj\Debug\netcoreapp3.1\ToDoApp.EFData.AssemblyInfo.cs
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\bin\Debug\netcoreapp3.1\ToDoApp.EFData.pdb
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\bin\Debug\netcoreapp3.1\ToDoApp.Domain.dll
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\bin\Debug\netcoreapp3.1\ToDoApp.Domain.pdb
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\obj\Debug\netcoreapp3.1\ToDoApp.EFData.csproj.CopyComplete
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\obj\Debug\netcoreapp3.1\ToDoApp.EFData.dll
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.EFData\obj\Debug\netcoreapp3.1\ToDoApp.EFData.pdb

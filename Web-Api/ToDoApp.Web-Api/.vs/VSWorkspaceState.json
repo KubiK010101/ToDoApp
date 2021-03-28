@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ToDoApp.Aplication",
+    "\\ToDoApp.Web-Api",
+    "\\ToDoApp.Web-Api\\bin",
+    "\\ToDoApp.Web-Api\\bin\\Release",
+    "\\ToDoApp.Web-Api\\Controllers"
+  ],
+  "SelectedNode": "\\ToDoApp.Web-Api\\Controllers",
+  "PreviewInSolutionExplorer": false
+}

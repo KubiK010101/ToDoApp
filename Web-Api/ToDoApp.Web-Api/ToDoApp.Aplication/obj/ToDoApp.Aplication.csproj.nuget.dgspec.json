@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Aplication\\ToDoApp.Aplication.csproj": {}
+  },
+  "projects": {
+    "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Aplication\\ToDoApp.Aplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Aplication\\ToDoApp.Aplication.csproj",
+        "projectName": "ToDoApp.Aplication",
+        "projectPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Aplication\\ToDoApp.Aplication.csproj",
+        "packagesPath": "C:\\Users\\kubik\\.nuget\\packages\\",
+        "outputPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Aplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kubik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.EFData\\ToDoApp.EFData.csproj": {
+                "projectPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.EFData\\ToDoApp.EFData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\ToDoApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\ToDoApp.Domain.csproj",
+        "projectName": "ToDoApp.Domain",
+        "projectPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\ToDoApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\kubik\\.nuget\\packages\\",
+        "outputPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kubik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.EFData\\ToDoApp.EFData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.EFData\\ToDoApp.EFData.csproj",
+        "projectName": "ToDoApp.EFData",
+        "projectPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.EFData\\ToDoApp.EFData.csproj",
+        "packagesPath": "C:\\Users\\kubik\\.nuget\\packages\\",
+        "outputPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.EFData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kubik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\ToDoApp.Domain.csproj": {
+                "projectPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\ToDoApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.113\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.Domain\bin\Debug\netcoreapp3.1\ToDoApp.Domain.deps.json
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.Domain\bin\Debug\netcoreapp3.1\ToDoApp.Domain.dll
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.Domain\obj\Debug\netcoreapp3.1\ToDoApp.Domain.csprojAssemblyReference.cache
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.Domain\obj\Debug\netcoreapp3.1\ToDoApp.Domain.AssemblyInfoInputs.cache
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.Domain\obj\Debug\netcoreapp3.1\ToDoApp.Domain.AssemblyInfo.cs
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.Domain\bin\Debug\netcoreapp3.1\ToDoApp.Domain.runtimeconfig.json
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.Domain\bin\Debug\netcoreapp3.1\ToDoApp.Domain.runtimeconfig.dev.json
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.Domain\bin\Debug\netcoreapp3.1\ToDoApp.Domain.pdb
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.Domain\obj\Debug\netcoreapp3.1\ToDoApp.Domain.dll
+D:\Angular_p\ToDo\Web-Api\ToDoApp.Web-Api\ToDoApp.Domain\obj\Debug\netcoreapp3.1\ToDoApp.Domain.pdb

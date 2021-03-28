@@ -1,0 +1,27 @@
+.heading-section {
+  background: linear-gradient(to right, rgb(2, 228, 171), rgb(2, 228, 171), rgb(74, 215, 240));
+  /*padding: 100px 0 100px 0;*/
+
+  max-height: 300px;
+  position:relative;
+
+  h1.title {
+    text-align: center;
+    color: white;
+    position:absolute;
+    top:50%;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    cursor:pointer;
+  }
+}
+.add-todo-box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 4px;
+  margin-top: -40px;
+  box-shadow: 0 4px 12px rgba(black, 0.2);
+}
+

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\todo-item",
+    "\\src\\app\\todos",
+    "\\src\\assets",
+    "\\src\\data",
+    "\\src\\data\\models",
+    "\\src\\data\\models\\todos",
+    "\\src\\environments"
+  ],
+  "SelectedNode": "\\src\\app\\todos\\todos.component.html",
+  "PreviewInSolutionExplorer": false
+}
