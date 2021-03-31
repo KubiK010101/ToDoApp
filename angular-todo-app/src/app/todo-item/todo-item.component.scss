@@ -71,3 +71,14 @@
 .todo-controls-box .todo-controls-button.isdanger:hover i.material-icons{
     color:rgb(155, 27, 27);
 }
+.todo-id {
+  color: #44d8ea;
+  padding-right: 25px;
+  font-size: 18px;
+
+  &.completed {
+    color: black;
+    font-weight:400;
+    font-style:italic;
+  }
+}

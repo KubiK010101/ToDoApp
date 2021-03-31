@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Todo } from '../shared/todo.model';
 import { Data } from '@angular/router'
-import { DataService } from '../shared/data.service';
 import { NgForm } from '@angular/forms';
 import { Container } from '@angular/compiler/src/i18n/i18n_ast';
+import { TodoService } from '../../data/services/todo.service';
+import { TodoModel } from '../../data/models/todos/todoModel';
 
 
 
@@ -15,7 +15,7 @@ import { Container } from '@angular/compiler/src/i18n/i18n_ast';
 export class TodosComponent implements OnInit {
 
 
-  todos: Todo[];
+  todos: TodoModel[];
 
   id = "tsparticles";
 
@@ -100,30 +100,57 @@ export class TodosComponent implements OnInit {
   showValidationErrors: boolean
 
 
-  constructor(private dataService: DataService) { }
+  constructor(
+    private todoservice: TodoService
+
+  )
+  {
+  }
 
 
   ngOnInit(): void {
-    this.todos = this.dataService.getAllTodos()
+    this.update()
   }
   onFormSubmit(form: NgForm) {
 
     if (form.invalid) return this.showValidationErrors = true
 
-    this.dataService.addTodo(new Todo(form.value.text))
-
+    this.todoservice.postTodo(
+      {
+        name: form.value.text,
+        completed: false,
+        datacreate: new Date(Date.now()).toISOString(),
+        deadline: new Date(Date.now()).toISOString(), categoryId: 4
+      }).subscribe(data => this.update())
     this.showValidationErrors=false
     form.reset()
 
   }
-  toggleCompleted(todo: Todo) {
-    todo.completed = !todo.completed;
+  update() {
+    this.todoservice.getTodo().subscribe(data => {
+      console.log(data)
+      this.todos = (data as TodoModel[]).sort((a, b) =>
+       new Date(a.datacreate).getTime() > new Date(b.datacreate).getTime() ?1:-1
+        );
+    })
+
+    
   }
-  editTodo(todo: Todo) {
+  toggleCompleted(todo: TodoModel) {
+    todo.completed = !todo.completed;
+    this.todoservice.putTodo(todo).subscribe(data => this.update());
+  }
+
+  editTodo(todo: TodoModel) {
     //we need
     //index todo
     const index = this.todos.indexOf(todo)
     //this.dataService.updateTodo()
+  }
+  deleteTodo(todo: TodoModel) {
+    console.log(todo)
+    this.todoservice.deleteTodo(todo).subscribe(data => this.update())
+    
   }
 }
 

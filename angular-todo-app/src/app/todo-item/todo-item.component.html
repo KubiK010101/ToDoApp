@@ -6,15 +6,18 @@
     </i>
 
   </div>
+  <div class="todo-id">
+    {{todo.id}}
+  </div>
   <div class="todo-text">
-    {{todo.text}}
+    {{todo.name}}
   </div>
   <div class="todo-controls-box" (click)="$event.stopPropagation()">
     <div class="todo-control-button">
       <i class="material-icons">edit</i>
     </div>
     <div class="todo-control-button">
-      <i class="material-icons">delete</i>
+      <i class="material-icons" (click)="oneDeleteClicked()">delete</i>
     </div>
   </div>
 </div>

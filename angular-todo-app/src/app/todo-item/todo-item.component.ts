@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Todo } from '../shared/todo.model';
+import { TodoModel } from '../../data/models/todos/todoModel';
 
 
 @Component({
@@ -8,9 +8,11 @@ import { Todo } from '../shared/todo.model';
   styleUrls: ['./todo-item.component.scss']
 })
 export class TodoItemComponent implements OnInit {
-  @Input() todo: Todo
+  @Input() todo: TodoModel
   @Output() todoClicked: EventEmitter<void> = new EventEmitter()
   @Output() editClicked: EventEmitter<void> = new EventEmitter()
+  @Output() deleteClicked: EventEmitter<void> = new EventEmitter()
+
 
 
   constructor() { }
@@ -23,6 +25,10 @@ export class TodoItemComponent implements OnInit {
   }
   oneEditClicked() {
     this.editClicked.emit()
+  }
+  oneDeleteClicked() {
+    console.log("todoItem")
+    this.deleteClicked.emit()
   }
 
 }

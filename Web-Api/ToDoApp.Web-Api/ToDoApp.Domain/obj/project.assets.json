@@ -969,11 +969,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\ToDoApp.Domain.csproj",
+      "projectUniqueName": "D:\\Angular_p\\ToDo\\ToDoApp\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\ToDoApp.Domain.csproj",
       "projectName": "ToDoApp.Domain",
-      "projectPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\ToDoApp.Domain.csproj",
+      "projectPath": "D:\\Angular_p\\ToDo\\ToDoApp\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\ToDoApp.Domain.csproj",
       "packagesPath": "C:\\Users\\kubik\\.nuget\\packages\\",
-      "outputPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\obj\\",
+      "outputPath": "D:\\Angular_p\\ToDo\\ToDoApp\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

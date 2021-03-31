@@ -4566,11 +4566,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Web-Api\\ToDoApp.Web-Api.csproj",
+      "projectUniqueName": "D:\\Angular_p\\ToDo\\ToDoApp\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Web-Api\\ToDoApp.Web-Api.csproj",
       "projectName": "ToDoApp.Web-Api",
-      "projectPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Web-Api\\ToDoApp.Web-Api.csproj",
+      "projectPath": "D:\\Angular_p\\ToDo\\ToDoApp\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Web-Api\\ToDoApp.Web-Api.csproj",
       "packagesPath": "C:\\Users\\kubik\\.nuget\\packages\\",
-      "outputPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Web-Api\\obj\\",
+      "outputPath": "D:\\Angular_p\\ToDo\\ToDoApp\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Web-Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4589,8 +4589,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Aplication\\ToDoApp.Aplication.csproj": {
-              "projectPath": "D:\\Angular_p\\ToDo\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Aplication\\ToDoApp.Aplication.csproj"
+            "D:\\Angular_p\\ToDo\\ToDoApp\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Aplication\\ToDoApp.Aplication.csproj": {
+              "projectPath": "D:\\Angular_p\\ToDo\\ToDoApp\\Web-Api\\ToDoApp.Web-Api\\ToDoApp.Aplication\\ToDoApp.Aplication.csproj"
             }
           }
         }

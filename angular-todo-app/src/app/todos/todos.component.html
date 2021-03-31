@@ -2,7 +2,7 @@
     <!--<section class="heading-section">
       <h1 class="title is-1 ">ToDoApp</h1>
     </section>-->
-  <div class="heading-section">
+  <div class="heading-section " >
     <h1 class="title is-1 ">ToDoApp</h1>
 
     <ng-particles [id]="id" [options]="particlesOptions">
@@ -51,8 +51,10 @@
             <div class="todos-list">
               <app-todo-item *ngFor="let todo of todos"
                              [todo]="todo"
+                             (deleteClicked)="deleteTodo(todo)"
                              (todoClicked)="toggleCompleted(todo)"
                              (editClicked)="editTodo(todo)">
+
 
 
               </app-todo-item>
